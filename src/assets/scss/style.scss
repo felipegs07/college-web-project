@@ -1,0 +1,14 @@
+@font-face {
+    font-family: bblue;
+    src: url(../../../dist/assets/fonts/Blue.ttf);
+}
+
+body {
+    background-color: aqua;
+}
+
+.logo-font {
+    font-family: 'bblue', sans-serif;
+    text-decoration: none;
+    color: #000;
+}

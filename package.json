@@ -1,0 +1,23 @@
+{
+  "name": "college-web-project",
+  "version": "1.0.0",
+  "description": "A portfolio site to web development class from college",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sass",
+    "javascript",
+    "portfolio"
+  ],
+  "author": "Felipe G.S",
+  "license": "MIT",
+  "dependencies": {
+    "gulp-sass": "^4.0.2",
+    "gulp-watch": "^5.0.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
