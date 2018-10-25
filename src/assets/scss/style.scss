@@ -3,12 +3,27 @@
     src: url(../../../dist/assets/fonts/Blue.ttf);
 }
 
-body {
-    background-color: aqua;
+a {
+    text-decoration: none;
+}
+
+body, html, * {
+    margin: 0;
+    padding: 0;
+
 }
 
 .logo-font {
     font-family: 'bblue', sans-serif;
     text-decoration: none;
-    color: #000;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.background-banner {
+    background: url('/dist/assets/img/banner.jpg');
+    max-width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    filter: grayscale(50%);
 }
