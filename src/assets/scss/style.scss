@@ -7,11 +7,6 @@ a {
     text-decoration: none;
 }
 
-body, html, * {
-    margin: 0;
-    padding: 0;
-
-}
 
 .logo-font {
     font-family: 'bblue', sans-serif;
@@ -25,5 +20,5 @@ body, html, * {
     max-width: 100vw;
     height: 100vh;
     background-size: cover;
-    filter: grayscale(50%);
+    filter: brightness(13%);
 }

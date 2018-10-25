@@ -13,6 +13,7 @@ gulp.task('sass', function(){
 
 gulp.task('watch', function(){
     gulp.watch('./src/assets/scss/*.scss',['sass']);
+    gulp.watch('./src/assets/images/**',['imagemin']);
 });
 
 gulp.task('imagemin', function(){
