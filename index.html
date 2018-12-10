@@ -8,15 +8,27 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
+  <header id="header" class="header">
+    <ul class="header-item">
+      <li><img class="logo-img" src="img/logo.png"></li>
+    </ul>
+    <ul class="header-item header-links">
+      <li class="header-link"><a href="#sobre">sobre nós</a></li>
+      <li class="header-link"><a href="#portfolio">portfólio</a></li>
+      <li class="header-link"><a href="#contato">contato</a></li>
+    </ul>
+  </header>
+
   <div class="pimg1">
     <div class="ptext">
-      <span class="border trans">
-        Lançamento: 13/12/2018
+      <span class="border trans ptext-special">
+        <span class="ptext-special-xl">The Lights of Life</span> <br>lançamento em 13/12/2018
       </span>
     </div>
   </div>
 
-  <section class="section section-light">
+  <section id="sobre" class="section section-light">
     <h2>sobre nós</h2>
     <p>
       Somos um grupo de desenvolvimento de jogos criado na Fatec Americana, especializada em jogos temáticos desde sua fundação, em 2017. Com foco em produções originais e relacionamento respeitoso com seus jogadores, a NSN é hoje uma das mais criativas e importantes empresas de jogos indie do Brasil.
@@ -49,17 +61,17 @@
     </div>
   </div>
 
-  <section class="portfolio-container section-dark">
+  <section id="portfolio" class="portfolio-container section-dark">
     <h2>conheça nossos projetos</h2>
     <section class="portfolio">
-      <article class="project project1">futurismo</article>
-      <article class="project project2">seminário acadêmico</article>
-      <article class="project project3">narrativa</article>
-      <article class="project project4">jogo sobre "vazio"</article>
+      <article class="project project1"><a href="" target="_blank">futurismo</a></article>
+      <article class="project project2"><a href="" target="_blank">seminário acadêmico</a></article>
+      <article class="project project3"><a href="narrativa.html" target="_blank">narrativa</a></article>
+      <article class="project project4"><a href="jogo.html" target="_blank">jogo sobre "vazio"</a></article>
     </section>
   </section>
 
-  <section class="section section-black">
+  <section id="contato" class="section section-black">
     <h2>NSN Corp</h2>
     <p>
       Edifício New York, Av. Brasil, 1500 - Vila Frezzarin, Americana/SP. CEP: 13465-810<br>
@@ -67,5 +79,7 @@
       <span class="phone-number">+55(19)3333-3333</span>
     </p>
   </section>
+
+  <script src="js/scroll.js"></script>
 </body>
 </html>
