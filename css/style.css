@@ -10,7 +10,7 @@ body, html{
 
 .pimg1, .pimg2, .pimg3{
   position:relative;
-  opacity:0.70;
+  opacity:0.80;
   background-position:center;
   background-size:cover;
   background-repeat:no-repeat;
@@ -52,15 +52,20 @@ body, html{
   color:#ddd;
 }
 
+.section-black {
+  background-color: #000;
+  color: #ddd;
+}
+
 .ptext{
   position:absolute;
   top:50%;
   width:100%;
   text-align:center;
   color:#000;
-  font-size:27px;
+  font-size:30px;
   letter-spacing:8px;
-  text-transform:uppercase;
+  line-height: 2rem;
 }
 
 .ptext .border{
@@ -73,8 +78,53 @@ body, html{
   background-color:transparent;
 }
 
+.phone-number {
+  color: #666;
+  font-weight: bold;
+  font-size: 14pt;
+}
+
+.portfolio-container {
+  text-align:center;
+  padding:50px 0;
+  width: 100%;
+}
+
+.portfolio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio > article {
+  flex: 1;
+}
+
+.project {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: coral;
+}
+
 @media(max-width:568px){
   .pimg1, .pimg2, .pimg3{
     background-attachment:scroll;
+  }
+
+  .section {
+    padding: 30px 20px;
+    text-align: justify;
+  }
+
+  .ptext {
+    letter-spacing: 0;
+  }
+  
+  .portfolio {
+    flex-direction: column;
+  }
+
+  .project {
+    width: 100%; 
   }
 }
