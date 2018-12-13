@@ -31,6 +31,10 @@ img {
     margin: 0 auto;
 }
 
+video {
+    width: 100%;
+}
+
 
 @media screen and (max-width: 750px){
     .project-container {
